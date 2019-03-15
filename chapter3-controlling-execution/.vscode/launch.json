@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - C3Exercise5",
+      "request": "launch",
+      "mainClass": "C3Exercise5"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - C3Exercise4",
+      "request": "launch",
+      "mainClass": "C3Exercise4"
+    }
+  ]
+}
