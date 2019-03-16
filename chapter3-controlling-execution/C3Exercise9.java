@@ -19,6 +19,8 @@ public class C3Exercise9 {
       System.out.print("1, 1");
       int prevPrev = 1, prev = 1;
       for (int i = 2, sen = 0; i < n; i++) {
+        // When the number plus whose previous becomes bigger than the max
+        // integer value, it will cause problem.
         if (sen == 1) {
           System.out.println(".");
           System.err.println("The fibonacci sequence required is out of range. "
@@ -27,6 +29,8 @@ public class C3Exercise9 {
         } else {
           int cur = prevPrev + prev;
           System.out.print(", " + cur );
+          // tranform from 'prev + cur > Integer.MAX_VALUE', because no integer
+          // can ever be greater than Integer.MAX_VALUE in Java.
           sen = prev > (Integer.MAX_VALUE - cur) ? 1 : 0;
           prevPrev = prev;
           prev = cur;
