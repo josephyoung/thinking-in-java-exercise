@@ -37,7 +37,7 @@ class Stem extends Root {
   Component3 com3 = new Component3(3);
   
   Stem(int i) {
-    super(1);
+    super(i);
     System.out.println("class Stem");
   }
 }
