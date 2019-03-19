@@ -8,7 +8,7 @@ class Simple {}
 class Second {
   Simple simple;
 
-  String getSimple() {
+  String doSimple() {
     simple = new Simple();
     return "lazy initialization a simple class: " + simple;
   }
@@ -19,6 +19,6 @@ public class C6Exercise1 {
   public static void main(String[] args) {
     Second foo = new Second();
     System.out.println(foo.simple);
-    System.out.println(foo.getSimple());
+    System.out.println(foo.doSimple());
   }
 }
