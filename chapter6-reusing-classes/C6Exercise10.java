@@ -46,5 +46,5 @@ public class C6Exercise10 {
 
   public static void main(String[] args) {
     new Stem(1);
-  }  
+  }
 }
