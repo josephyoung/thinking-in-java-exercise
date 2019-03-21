@@ -71,7 +71,7 @@ public class Music3 {
       new Stringed(),
       new Brass(),
       new Woodwind(),
-      new Harmonia(),
+      new Harmonica(),
     };
     tuneAll(orchestra);
     printAll(orchestra);
